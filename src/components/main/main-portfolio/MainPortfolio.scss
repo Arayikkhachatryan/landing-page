@@ -1,0 +1,11 @@
+.main-portfolio-wrapper {
+  width: 100%;
+  height: 950px;
+  border: 1px solid black;
+  > h1 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}

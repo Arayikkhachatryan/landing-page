@@ -1,0 +1,12 @@
+.main-dev-services-wrapper {
+  width: 100%;
+  height: 840px;
+  border: 1px solid black;
+  margin: 100px 0;
+  > h1 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
