@@ -5,6 +5,7 @@ const MainContactUs = () => {
   return (
     <div className="main-contact-us-wrapper">
         <h1>Contact Us</h1>
+        <p>asd</p>
     </div>
   )
 }
