@@ -1,0 +1,29 @@
+.main-img-text-wrapper {
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  transform: translate(-360px, 86px);
+  > h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 88px;
+    max-width: 546px;
+    height: 176px;
+  }
+  > p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 440px;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    opacity: 0.75;
+  }
+}
