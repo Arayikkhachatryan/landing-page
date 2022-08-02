@@ -14,7 +14,7 @@
     justify-content: center;
     background: rgba(240, 240, 240, 0.2);
     top: 0;
-    transition: top 0.2s ease-in-out;
+    transition: top 0.1s ease-in;
   &-container {
     display: flex;
     align-items: center;
@@ -45,7 +45,6 @@
     }
   }
 }
-
 
 .header-bg {
 top: -90px;

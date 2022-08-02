@@ -1,6 +1,7 @@
 import React from "react";
 import "./MainImgText.scss";
 import "@fontsource/archivo-black"
+import MainFrameBtn from "../main-frame-btn/MainFrameBtn";
 
 
 const MainImgText = () => {
@@ -11,7 +12,9 @@ const MainImgText = () => {
         Outsource Your Development at Affordable Prices to Senior Engineers in
         Armenia
       </p>
+      <MainFrameBtn/>
     </div>
+
   );
 };
 
