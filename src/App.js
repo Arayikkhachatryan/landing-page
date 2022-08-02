@@ -16,7 +16,6 @@ function App() {
       <MainExpertise />
       <MainPortfolio />
       <MainContactUs/>
-      
     </>
 
   );
