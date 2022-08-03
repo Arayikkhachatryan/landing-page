@@ -3,8 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // height: 840px;
-  border: 1px solid black;
   padding: 28px;
   margin: 100px 0;
   &-bg {
@@ -36,20 +34,16 @@
   }
   &-subtitle {
     text-align: left;
-    width: 26%;
     padding: 4px 4px 4px 6px;
     margin: 3px;
-    border: solid;
     font-size: 14px;
     color: #0E191E;
     font-weight: 400;
   }
   &-items {
-    border: solid;
     display: flex;
     justify-content: center;
     padding: 24px;
-    width: 1200px;
     flex-wrap: wrap;
   }
 }

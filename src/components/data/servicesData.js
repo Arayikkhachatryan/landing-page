@@ -59,5 +59,53 @@ export const servicesData = [
             alt: "BI"
         },
         text: "Business Inteligence"
+    },
+    {
+        id: 7,
+        image: {
+            src: item7,
+            alt: "SASS"
+        },
+        text: "Sass Development"
+    },
+    {
+        id: 8,
+        image: {
+            src: item7,
+            alt: "SASS"
+        },
+        text: "Sass Development"
+    },
+    {
+        id: 9,
+        image: {
+            src: item8,
+            alt: "FRONTEND"
+        },
+        text: "Front End Development"
+    },
+    {
+        id: 10,
+        image: {
+            src: item9,
+            alt: "MOBILE"
+        },
+        text: "Mobile App Development"
+    },
+    {
+        id: 11,
+        image: {
+            src: item10,
+            alt: "React"
+        },
+        text: "React"
+    },
+    {
+        id: 12,
+        image: {
+            src: item10,
+            alt: "C/C++"
+        },
+        text: "C/C++"
     }
 ]

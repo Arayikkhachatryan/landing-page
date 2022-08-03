@@ -1,7 +1,6 @@
 import BaseItem from "../../../common/baseItem/BaseItem";
 
 const ServicesItems = ({ data }) => {
-    console.log(data);
     return (
         <div className="main-dev-services-items">
             {
