@@ -103,7 +103,7 @@ export const servicesData = [
     {
         id: 12,
         image: {
-            src: item10,
+            src: item11,
             alt: "C/C++"
         },
         text: "C/C++"
