@@ -3,15 +3,15 @@ import logo from "../../assets/logo/logo.png";
 import "@fontsource/open-sans";import { useState } from "react";
 
 const Header = () => {
-  const [color, setColor] = useState(false);
+  const [hide, sethide] = useState(false);
 
   const chnageColor = () =>
-    window.scrollY >= 880 ? setColor(true) : setColor(false);
+    window.scrollY >= 880 ? sethide(true) : sethide(false);
   window.addEventListener("scroll", chnageColor);
 
   return (
     <header>
-      <div className={color ? "header-wrapper header-bg" : "header-wrapper"}>
+      <div className={hide ? "header-wrapper header-bg" : "header-wrapper"}>
         <div className="header-wrapper-container">
           <div className="header-wrapper-container-logo">
             <img src={logo} alt="/" />

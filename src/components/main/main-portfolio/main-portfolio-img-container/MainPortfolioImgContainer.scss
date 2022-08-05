@@ -1,4 +1,44 @@
-.main-portfolio-wrapper-imgs{
-    display: grid;
-    grid-template-columns: auto auto auto;
+.main-portfolio-wrapper-imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 32px;
+  &-bg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+   
+    .main-portfolio-wrapper-imgs-bg-text {
+        opacity: 1;
+        display: flex;
+        transition-delay: 0.14s;
+        position: absolute;
+        background: rgba(159, 91, 255, 0.5);
+        backdrop-filter: blur(16px);
+        width: 411px;
+        height: 280px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        top: 12px;
+        
+      }
+      .main-portfolio-wrapper-imgs-bg-text > p {
+        color: #ffff;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+      }
+    }
+  }
+  &-bg-text {
+    display: none;
+  }
 }
