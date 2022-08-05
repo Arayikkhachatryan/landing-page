@@ -1,4 +1,4 @@
-import MainImgText from "./main-img-text/MainImgText";
+import MainImgText from "./main-frame-text/MainImgText";
 import "./MainImgFrame.scss";
 
 const MainImgFrame = () => {
