@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Open sans';
 }
 
 .header-wrapper {
@@ -15,6 +14,7 @@
     background: rgba(240, 240, 240, 0.2);
     top: 0;
     transition: top 0.2s ease-in-out;
+    font-family: 'Open sans';
   &-container {
     display: flex;
     align-items: center;
