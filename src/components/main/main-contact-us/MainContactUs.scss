@@ -14,10 +14,11 @@
         justify-content: center;
     }
     &-board {
+       > img {
         position: absolute;
-        z-index: 1;
-        left: 0;
-        top: 0;
+        transform: translate(-320px, -461px);
+        z-index: 3;
+       }
     }
     &-form {
         z-index: 4;
