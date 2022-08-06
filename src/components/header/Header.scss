@@ -12,14 +12,18 @@
     align-items: center;
     justify-content: center;
     background: rgba(240, 240, 240, 0.2);
-    top: 0;
     transition: top 0.2s ease-in-out;
     font-family: 'Open sans';
+    z-index: 5;
   &-container {
     display: flex;
     align-items: center;
     width: 1300px;
     justify-content: space-between;
+    &-logo{
+      display: flex;
+      align-items: center;
+    }
     &-nav{
         display: flex;
         width: 350px;
@@ -31,7 +35,8 @@
     }
     &-freeestimation {
       > button {
-        padding: 8px 24px;
+        cursor: pointer;
+        padding: 12px 24px;
         border-radius: 12px;
         background: #ffffff;
         font-family: Open Sans;
@@ -46,6 +51,27 @@
   }
 }
 
-.header-bg {
-top: -90px;
+.header-wrapper-bg {
+  background-color: rgb(255, 255, 255);
+  box-shadow:rgba(0,0,0,0.15) 0px 2px 20px;
+  transition: all 200ms ease-out 0s;
+  .header-wrapper-container{
+    &-freeestimation{
+      > button {
+      background: linear-gradient(58.62deg, #605bff 0%, #9f5bff 100%);
+        color: #ffffff;
+      }
+    }
+    &-logo{
+      background: linear-gradient(58.62deg, #605bff 0%, #9f5bff 100%);
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+    }
+   &-nav {
+    > a {
+      color: black;
+    }
+   }
+  }
 }

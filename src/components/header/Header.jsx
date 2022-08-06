@@ -6,12 +6,12 @@ const Header = () => {
   const [hide, sethide] = useState(false);
 
   const chnageColor = () =>
-    window.scrollY >= 880 ? sethide(true) : sethide(false);
-  window.addEventListener("scroll", chnageColor);
+    window.scrollY >= 550 ? sethide(true) : sethide(false);
+    window.addEventListener("scroll", chnageColor);
 
   return (
     <header>
-      <div className={hide ? "header-wrapper header-bg" : "header-wrapper"}>
+      <div className={hide ? "header-wrapper header-wrapper-bg" : "header-wrapper"}>
         <div className="header-wrapper-container">
           <div className="header-wrapper-container-logo">
             <img src={logo} alt="/" />
