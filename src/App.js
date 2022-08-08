@@ -16,8 +16,8 @@ function App() {
       <MainDevServices />
       <MainExpertise />
       <MainPortfolio />
-      <MainContactUs/>
-      <Footer/>
+      <MainContactUs />
+      <Footer />
     </>
 
   );

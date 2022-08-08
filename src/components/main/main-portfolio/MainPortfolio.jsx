@@ -1,7 +1,7 @@
 import React from "react";
 import "./MainPortfolio.scss";
 import "@fontsource/archivo-black";
-import "@fontsource/open-sans"
+import "@fontsource/open-sans";
 import MainPortfolioImgContainer from "./main-portfolio-img-container/MainPortfolioImgContainer";
 
 const MainPortfolio = () => {
@@ -14,7 +14,7 @@ const MainPortfolio = () => {
           the following technologies.
         </p>
       </div>
-      <MainPortfolioImgContainer/>
+      <MainPortfolioImgContainer />
     </div>
   );
 };
