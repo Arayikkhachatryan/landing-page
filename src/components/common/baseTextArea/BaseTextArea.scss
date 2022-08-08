@@ -7,4 +7,11 @@
     border: solid #9F5BFF40 1px;
     outline: none;
     resize: vertical;
+
+    &:hover {
+        border: 1px solid rgb(159, 91, 255);
+        box-shadow: rgba(159, 91, 255, 0.3) 0px 10px 28px;
+        transition: all 600ms ease-out 0s;
+
+    }
 }
