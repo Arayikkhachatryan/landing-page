@@ -1,0 +1,9 @@
+.main-expertice-wrapper-container-items {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+  width: 1300px;
+  margin-bottom: 48px;
+}

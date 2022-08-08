@@ -1,0 +1,29 @@
+.base-item-exp {
+  background-color: #fff;
+  padding: 6px 12px;
+  height: 120px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid white;
+  display: flex;
+  transition: all 200ms ease-out 0s;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgb(238, 238, 238) 0px 8px 20px;
+
+  > p {
+    margin-top: 8px;
+    font-weight: 600;
+    color: rgb(134, 139, 141);
+  }
+
+  &:hover {
+    background: #ffffff;
+    border: 1px solid rgb(159, 91, 255);
+    box-shadow: rgba(159, 91, 255, 0.3) 0px 10px 28px;
+     > p {
+      color: black;
+    }
+  }
+}
