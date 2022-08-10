@@ -1,14 +1,14 @@
-import item1 from "../../assets/dev-services/items/item-1.png";
-import item2 from "../../assets/dev-services/items/item-2.png";
-import item3 from "../../assets/dev-services/items/item-3.png";
-import item4 from "../../assets/dev-services/items/item-4.png";
-import item5 from "../../assets/dev-services/items/item-5.png";
-import item6 from "../../assets/dev-services/items/item-6.png";
-import item7 from "../../assets/dev-services/items/item-7.png";
-import item8 from "../../assets/dev-services/items/item-8.png";
-import item9 from "../../assets/dev-services/items/item-9.png";
-import item10 from "../../assets/dev-services/items/item-10.png";
-import item11 from "../../assets/dev-services/items/item-11.png";
+import item1 from "../../assets/images/dev-services-item-1.png";
+import item2 from "../../assets/images/dev-services-item-2.png";
+import item3 from "../../assets/images/dev-services-item-3.png";
+import item4 from "../../assets/images/dev-services-item-4.png";
+import item5 from "../../assets/images/dev-services-item-5.png";
+import item6 from "../../assets/images/dev-services-item-6.png";
+import item7 from "../../assets/images/dev-services-item-7.png";
+import item8 from "../../assets/images/dev-services-item-8.png";
+import item9 from "../../assets/images/dev-services-item-9.png";
+import item10 from "../../assets/images/dev-services-item-10.png";
+import item11 from "../../assets/images/dev-services-item-11.png";
 
 
 export const servicesData = [

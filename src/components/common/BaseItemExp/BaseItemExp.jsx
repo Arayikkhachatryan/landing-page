@@ -5,7 +5,7 @@ const BaseItemExp = ({ image, text }) => {
     return (
         <div className="base-item-exp">
             <img src={ src } alt={ alt } />
-            <p>{ text }</p>
+            <p className="op-400">{ text }</p>
         </div>
     )
 }

@@ -1,23 +1,24 @@
 .main-contact-us{
     width: 100%;
-    min-height: 946px;
-    position: relative;
-    padding: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #F7F5FF;
-    &-picture {
-        z-index: 4;
+
+    &-container{
         display: flex;
-        align-items: center;
         justify-content: center;
-    }
-    &-board {
-        position: absolute;
-        z-index: 1;
-        left: 0;
-        top: 0;
+        align-items: center;
+        &-picture {
+            position:absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &-board {
+         position:relative;
+         right: 550px;
+        }
     }
     &-form {
         z-index: 4;

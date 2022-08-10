@@ -1,8 +1,7 @@
 import React from "react";
 import "./Footer.scss";
-import logo from "../../assets/logo/logo.png";
-import upVector from "../../assets/footer/Vector.svg";
-import "@fontsource/open-sans";
+import logo from "../../assets/images/logo.png";
+import upVector from "../../assets/images/footer-Vector.svg";
 
 const Footer = () => {
   return (
@@ -17,9 +16,15 @@ const Footer = () => {
             </p>
           </div>
           <div className="footer-wrapper-main-nav">
-            <a href="/">Services</a>
-            <a href="/">Expertice</a>
-            <a href="/">Portfolio</a>
+            <a href="/" className="nav-a">
+              Services
+            </a>
+            <a href="/" className="nav-a">
+              Expertice
+            </a>
+            <a href="/" className="nav-a">
+              Portfolio
+            </a>
           </div>
           <div className="footer-wrapper-main-scroll-btn">
             <button

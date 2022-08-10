@@ -13,4 +13,9 @@
     letter-spacing: .8px;
     margin: 4px;
     padding: 4px;
+    transition: all 600ms ease-out 0s;
+
+    &:hover{
+        box-shadow: rgba(159, 91, 255, 0.4) 0px 10px 28px;
+    }
 }

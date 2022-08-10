@@ -1,9 +1,9 @@
-import item1 from '../../../../assets/main-expertice/card-icons/angularJs.png'
-import item2 from '../../../../assets/main-expertice/card-icons/aws.png'
-import item3 from '../../../../assets/main-expertice/card-icons/docker.png'
-import item4 from '../../../../assets/main-expertice/card-icons/falsk.png'
-import item5 from '../../../../assets/main-expertice/card-icons/pyton.png'
-import item6 from '../../../../assets/main-expertice/card-icons/vueJs.png'
+import item1 from '../../../../assets/images/main-expertice-angularJs.png'
+import item2 from '../../../../assets/images/main-expertice-aws.png'
+import item3 from '../../../../assets/images/main-expertice-docker.png'
+import item4 from '../../../../assets/images/main-expertice-falsk.png'
+import item5 from '../../../../assets/images/main-expertice-pyton.png'
+import item6 from '../../../../assets/images/main-expertice-vueJs.png'
 
 export const mainExpertiseData = [
     {

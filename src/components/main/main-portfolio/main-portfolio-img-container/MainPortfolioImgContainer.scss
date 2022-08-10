@@ -8,32 +8,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    > img {
+      width: 408px;
+      height: 280px;
+      border-radius: 8px;
+    }
+
     &:hover {
-   
-    .main-portfolio-wrapper-imgs-bg-text {
+      .main-portfolio-wrapper-imgs-bg-text {
         opacity: 1;
         display: flex;
         transition-delay: 0.14s;
         position: absolute;
         background: rgba(159, 91, 255, 0.5);
         backdrop-filter: blur(16px);
-        width: 411px;
+        width: 408px;
         height: 280px;
         text-align: center;
         justify-content: center;
         align-items: center;
         border-radius: 8px;
-        top: 12px;
-        
       }
       .main-portfolio-wrapper-imgs-bg-text > p {
         color: #ffff;
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 48px;
         text-align: center;
       }
     }

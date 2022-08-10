@@ -1,19 +1,19 @@
-import Board1 from "../../../../assets/dev-services/board-1.png";
-import Board2 from "../../../../assets/dev-services/board-2.png";
-import Vector from "../../../../assets/dev-services/vector.png";
+import board1 from "../../../../assets/images/dev-services-board-1.png";
+import board2 from "../../../../assets/images/dev-services-board-2.png";
+import vector from "../../../../assets/images/dev-services-vector.png";
 
 const ServicesBg = () => {
   return (
     <div className="main-dev-services-bg">
       <div className="main-dev-services-bg-content">
         <div className="main-dev-services-bg-board board-1">
-          <img src={Board1} alt="/"/>
+          <img src={board1} alt="/"/>
         </div>
         <div className="main-dev-services-bg-vector">
-          <img src={Vector} alt="/"/>
+          <img src={vector} alt="/"/>
         </div>
         <div className="main-dev-services-bg-board board-2">
-          <img src={Board2} alt="/"/>
+          <img src={board2} alt="/"/>
         </div>
       </div>
     </div>

@@ -1,0 +1,249 @@
+{
+    "servicesData": [
+        {
+            "id": 1,
+            "image": {
+                "src": "item1",
+                "alt": "python"
+            },
+            "text": "Python Development"
+        },
+        {
+            "id": 2,
+            "image": {
+                "src": "item2",
+                "alt": "ML"
+            },
+            "text": "Machine Learning & AI"
+        },
+        {
+            "id": 3,
+            "image": {
+                "src": "item3",
+                "alt": "JavaScript"
+            },
+            "text": "Javascript Development"
+        },
+        {
+            "id": 4,
+            "image": {
+                "src": "item4",
+                "alt": "Django"
+            },
+            "text": "Django Development"
+        },
+        {
+            "id": 5,
+            "image": {
+                "src": "item5",
+                "alt": "BA"
+            },
+            "text": "Big Data & Analytics"
+        },
+        {
+            "id": 6,
+            "image": {
+                "src": "item6",
+                "alt": "BI"
+            },
+            "text": "Business Inteligence"
+        },
+        {
+            "id": 7,
+            "image": {
+                "src": "item7",
+                "alt": "SASS"
+            },
+            "text": "Sass Development"
+        },
+        {
+            "id": 8,
+            "image": {
+                "src": "item7",
+                "alt": "SASS"
+            },
+            "text": "Sass Development"
+        },
+        {
+            "id": 9,
+            "image": {
+                "src": "item8",
+                "alt": "FRONTEND"
+            },
+            "text": "Front End Development"
+        },
+        {
+            "id": 10,
+            "image": {
+                "src": "item9",
+                "alt": "MOBILE"
+            },
+            "text": "Mobile App Development"
+        },
+        {
+            "id": 11,
+            "image": {
+                "src": "item1",
+                "alt": "React"
+            },
+            "text": "React"
+        },
+        {
+            "id": 12,
+            "image": {
+                "src": "item1",
+                "alt": "C/C++"
+            },
+            "text": "C/C++"
+        }
+    ],
+
+    "mainExpertiseData": [
+        {
+            "id": 1,
+            "image": {
+                "src": "experticeItem1",
+                "alt": "angular"
+            },
+            "text": "Angular JS"
+        },
+        {
+            "id": 2,
+            "image": {
+                "src": "experticeItem2",
+                "alt": "aws"
+            },
+            "text": "AWS"
+        },
+        {
+            "id": 3,
+            "image": {
+                "src": "experticeItem3",
+                "alt": "docker"
+            },
+            "text": "Docker"
+        },
+        {
+            "id": 4,
+            "image": {
+                "src": "experticeItem4",
+                "alt": "falsk"
+            },
+            "text": "Falsk"
+        },
+        {
+            "id": 5,
+            "image": {
+                "src": "experticeItem5",
+                "alt": "python"
+            },
+            "text": "Python"
+        },
+        {
+            "id": 6,
+            "image": {
+                "src": "experticeItem6",
+                "alt": "vuejs"
+            },
+            "text": "Vue.Js"
+        },
+        {
+            "id": 7,
+            "image": {
+                "src": "experticeItem1",
+                "alt": "angular"
+            },
+            "text": "Angular JS"
+        },
+        {
+            "id": 8,
+            "image": {
+                "src": "experticeItem2",
+                "alt": "aws"
+            },
+            "text": "AWS"
+        },
+        {
+            "id": 9,
+            "image": {
+                "src": "experticeItem3",
+                "alt": "docker"
+            },
+            "text": "Docker"
+        },
+        {
+            "id": 10,
+            "image": {
+                "src": "experticeItem4",
+                "alt": "falsk"
+            },
+            "text": "Falsk"
+        },
+        {
+            "id": 11,
+            "image": {
+                "src": "experticeItem5",
+                "alt": "python"
+            },
+            "text": "Python"
+        },
+        {
+            "id": 12,
+            "image": {
+                "src": "experticeItem6",
+                "alt": "vuejs"
+            },
+            "text": "Vue.Js"
+        },
+        {
+            "id": 13,
+            "image": {
+                "src": "experticeItem1",
+                "alt": "angular"
+            },
+            "text": "Angular JS"
+        },
+        {
+            "id": 14,
+            "image": {
+                "src": "experticeItem2",
+                "alt": "aws"
+            },
+            "text": "AWS"
+        },
+        {
+            "id": 15,
+            "image": {
+                "src": "experticeItem3",
+                "alt": "docker"
+            },
+            "text": "Docker"
+        },
+        {
+            "id": 16,
+            "image": {
+                "src": "experticeItem4",
+                "alt": "falsk"
+            },
+            "text": "Falsk"
+        },
+        {
+            "id": 17,
+            "image": {
+                "src": "experticeItem5",
+                "alt": "python"
+            },
+            "text": "Python"
+        },
+        {
+            "id": 18,
+            "image": {
+                "src": "experticeItem6",
+                "alt": "vuejs"
+            },
+            "text": "Vue.Js"
+        }
+    ]
+    
+    
+}
